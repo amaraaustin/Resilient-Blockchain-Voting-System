@@ -1,21 +1,47 @@
+Resilient Blockchain Voting System
+
+A blockchain-based voting system with IoT-enabled resilience, designed to improve electoral transparency, vote integrity, and reliability in environments with unstable electricity and limited infrastructure.
+
 Authored by Amarachi Austin-Okoh
 
-# Secure Blockchain Voting with IoT-Enabled Resilience – My Contributions
+My Contributions
 
- This project delivers a blockchain-based voting system that ensures comprehensive electoral security (availability, backup, auditing, confidentiality, immutability) in Nigeria’s unstable power context, leveraging my IoT firmware expertise.
+This project was co-developed with Ebubechukwu Gabriel, who built the Node.js voting application and deployed the Ethereum smart contracts. My contributions focused on the IoT firmware and power-monitoring components that complemented the wider application.
 
-Co-developed with [Ebubechukwu Gabriel], who built the Node.js voting app and deployed Ethereum smart contracts. My firmware complemented his web app for a scalable solution.
+IoT and Firmware Development
 
-##My Contributions
-I spearheaded the firmware and IoT components, focusing on:
-- **IoT Power Monitoring**: Developed ESP32 and ZMPT101B code (`esp32_firmware.py`) for real-time power monitoring, ensuring **availability** with 2-4s detection 
-- **MQTT Integration**: Configured `voting/system/power/status` topic for **auditing**, 
-- **System Resilience**: Integrated MongoDB for **backup** (zero data loss) and supported Ethereum for **confidentiality**/**immutability**
-- **Testing**: Led tests validating all pillars,
+IoT Power Monitoring: Developed ESP32 and ZMPT101B firmware (esp32_firmware.py) for real-time power monitoring.
 
+MQTT Integration: Configured the voting/system/power/status topic to communicate power-status updates.
 
-- **Files**
-can be found in folders titled esp_codes.
+System Resilience: Contributed to the IoT components supporting the system's resilience in environments with unstable electricity.
 
+Testing: Contributed to testing and validating the firmware functionality.
 
-- **Contact**: [austinokoh2004@gmail.com] | GitHub: [amaraaustin]
+Project Files
+
+The firmware code is available in the esp_codes folder.
+
+Technologies
+
+ESP32
+
+ZMPT101B voltage sensor
+
+MQTT
+
+Node.js
+
+Ethereum smart contracts
+
+MongoDB
+
+Collaboration and Attribution
+
+This was a collaborative project. The contributions described above reflect my work on the IoT and firmware components alongside Ebubechukwu Gabriel's work on the voting application and blockchain integration.
+
+Contact
+
+Email: austinokoh2004@gmail.com
+
+GitHub: @amaraaustin
